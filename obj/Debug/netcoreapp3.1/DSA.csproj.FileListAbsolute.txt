@@ -1,0 +1,14 @@
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.exe
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.deps.json
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.runtimeconfig.json
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.runtimeconfig.dev.json
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.dll
+C:\Users\x-and\source\repos\DSA\bin\Debug\netcoreapp3.1\DSA.pdb
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.csproj.AssemblyReference.cache
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.AssemblyInfoInputs.cache
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.AssemblyInfo.cs
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.csproj.CoreCompileInputs.cache
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.dll
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.pdb
+C:\Users\x-and\source\repos\DSA\obj\Debug\netcoreapp3.1\DSA.genruntimeconfig.cache
