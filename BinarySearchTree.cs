@@ -83,7 +83,6 @@ namespace DSA
         {
             if (node != null)
             {
-               
                 Console.Write(node.Data + " ");
                 PreOrderTraverse(node.LeftChild);
                 PreOrderTraverse(node.RightChild);
@@ -111,6 +110,62 @@ namespace DSA
                 InOrderTraverse(node.RightChild);
             }
 
+        }
+
+        public void DeleteNode(ref Node root, int value)
+        {
+            if( value < root.Data)
+                {
+                        DeleteNode(ref root.LeftChild, value);
+                }
+
+                if (value > root.Data)
+                {
+                        DeleteNode(ref root.RightChild, value);
+                }
+
+                if(value == root.Data)
+                {
+                    if (root.LeftChild == null)
+                    {
+                        root = root.RightChild;
+                        return;
+                    }
+
+                    if (root.RightChild == null)
+                    {
+                        root = root.LeftChild;
+                        return;
+                    }
+
+                    // if both sides or none sides are null, then we get lowest value from right sub tree
+
+                    Node MinNode = GetMinimumNode(root.RightChild);
+                    DeleteNode(ref root.RightChild, MinNode.Data);
+                    root.Data = MinNode.Data;
+                    
+                }
+
+
+
+
+
+            
+            
+
+        }
+
+        Node GetMinimumNode(Node root)
+        {
+            
+            if (root.LeftChild != null)
+            {
+               return GetMinimumNode(root.LeftChild);
+            }
+            return root;
+            
+            
+            
         }
 
     }
