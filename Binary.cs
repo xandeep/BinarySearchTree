@@ -35,7 +35,7 @@ namespace DSA
             tree.InOrderTraverse(tree.root);
 
             tree.DeleteNode(ref tree.root, 35);
-            Console.WriteLine("35 Deleted! \n");
+            Console.WriteLine("\n\n35 Deleted! \n");
             tree.DeleteNode(ref tree.root, 100);
             Console.WriteLine("100 Deleted! \n");
             tree.DeleteNode(ref tree.root, 75);
