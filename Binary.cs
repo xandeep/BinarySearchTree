@@ -33,6 +33,24 @@ namespace DSA
 
             Console.WriteLine("\n\nIn-Order Traverse : ");
             tree.InOrderTraverse(tree.root);
+
+            tree.DeleteNode(ref tree.root, 35);
+            Console.WriteLine("35 Deleted! \n");
+            tree.DeleteNode(ref tree.root, 100);
+            Console.WriteLine("100 Deleted! \n");
+            tree.DeleteNode(ref tree.root, 75);
+            Console.WriteLine("75 Deleted! \n");
+            tree.DeleteNode(ref tree.root, 106);
+            Console.WriteLine("106 Deleted! \n");
+
+            Console.WriteLine("Pre-Order Traverse : ");
+            tree.PreOrderTraverse(tree.root);
+
+            Console.WriteLine("\n\nPost-Order Traverse : ");
+            tree.PostOrderTraverse(tree.root);
+
+            Console.WriteLine("\n\nIn-Order Traverse : ");
+            tree.InOrderTraverse(tree.root);
         }
     }
 }
