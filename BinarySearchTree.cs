@@ -138,7 +138,7 @@ namespace DSA
                     return;
                 }
 
-                // if both sides or none sides are null, then we get lowest value from right sub tree
+                // if both sides are not  null, then we get lowest value from right sub tree
                 Node MinNode = GetMinimumNode(root.RightChild);
                 DeleteNode(ref root.RightChild, MinNode.Data);
                 root.Data = MinNode.Data;
